@@ -1,0 +1,106 @@
+
+
+.main_container{
+	background-image:linear-gradient(45deg,rgba(245,70,66, 0.75),rgba(8,83,156, 0.75)), url('https://csrbox.org/news/1633521512banner.jpg');
+	background-position: center;
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	
+}
+.heading{
+	font-size: 35px;
+	color:#E4FBFF;
+	font-weight: 500;
+	text-align: center;
+	display: flex;
+	margin-top: auto;
+	align-items: center;
+	justify-content: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	padding: 20px;
+	cursor: pointer;
+}
+
+.navbar {
+	width: 100%;
+	height: 70px;
+	/* background-color: #3bb19b; */
+	background-color: #7868E6;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navbar h1 {
+	color: white;
+	font-size: 25px;
+	margin-left: 20px;
+}
+
+.white_btn {
+	border: none;
+	outline: none;
+	padding: 12px 0;
+	background-color: white;
+	border-radius: 20px;
+	width: 120px;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+	margin-right: 20px;
+}
+.link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+.link:hover{
+    text-decoration: none;
+    color: #7868E6;
+}
+
+.input {
+	outline: none;
+	border: none;
+	width: 500px;
+	padding: 15px;
+	border-radius: 10px;
+	background-color: #f9f9f9;
+	border: 2px solid #100F0F;
+	margin: 5px 0;
+	font-size: 14px;
+}
+
+.result{
+	width: 450px;
+	background-color: #798777;
+	color: #fff;
+	padding: 15px 20px;
+	font-weight: 25px;
+	text-align: center;
+	font-weight: 500;
+	border-radius: 4px;
+	margin-left: 460px;
+}
+.input_div{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.prime_btn {
+	border: none;
+	outline: none;
+	padding: 12px 0;
+	background-color: #7868E6;
+	border-radius: 5px;
+	width: 180px;
+	font-weight: bold;
+	font-size: 18px;
+	color: #fff;
+	cursor: pointer;
+	margin-top: 10px;
+}
